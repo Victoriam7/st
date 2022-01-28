@@ -1,0 +1,7 @@
+.cache/*
+patches/*
+config.h
+config.h
+*.o
+st
+
