@@ -4,4 +4,4 @@ config.h
 config.h
 *.o
 st
-
+compile_commands.json
