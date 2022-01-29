@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DejaVuSansMono Nerd Font:pixelsize=14:antialias=true:autohint=true";
+static char *font = "DejaVuSansMono Nerd Font:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -111,32 +111,50 @@ float alpha = 0.7;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
-
+        "#000000",
+        "#ff0000",
+        "#33ff00",
+        "#ffff00",
+        "#00ffff",
+        "#ff0099",
+        "#0066ff",
+        "#d0d0d0",
+        "#808080",
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
-
+        "#ff0000",
+        "#33ff00",
+        "#ffff00",
+        "#00ffff",
+        "#ff0099",
+        "#0066ff",
+        "#ffffff",
+        "#d0d0d0",
+       // "#000000",
 	[255] = 0,
-
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
 	"gray90", /* default foreground colour */
 	"black", /* default background colour */
+//	"",
+//	"red3",
+//	"green3",
+//	"yellow3",
+//	"blue2",
+//	"magenta3",
+//	"cyan3",
+//	"gray90",
+//
+//	"gray50",
+//	"red",
+//	"green",
+//	"yellow",
+//	"#5c5cff",
+//	"magenta",
+//	"cyan",
+//	"white",
+//
+//
 };
 
 
