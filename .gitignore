@@ -5,3 +5,7 @@ config.h
 *.o
 st
 compile_commands.json
+build/*
+.ccls-cache
+.ccls
+common.h
