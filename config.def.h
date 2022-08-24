@@ -111,50 +111,29 @@ float alpha = 0.7;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-        "#000000",
-        "#ff0000",
-        "#33ff00",
-        "#ffff00",
-        "#00ffff",
-        "#ff0099",
-        "#0066ff",
-        "#d0d0d0",
-        "#808080",
+        "#15161E",
+        "#f7768e",
+        "#9ece6a",
+        "#e0af68",
+        "#7aa2f7",
+        "#bb9af7",
+        "#7dcfff",
+        "#a9b1d6",
 	/* 8 bright colors */
-        "#ff0000",
-        "#33ff00",
-        "#ffff00",
-        "#00ffff",
-        "#ff0099",
-        "#0066ff",
-        "#ffffff",
-        "#d0d0d0",
-       // "#000000",
-	[255] = 0,
-	/* more colors can be added after 255 to use with DefaultXX */
+        "#414868",
+        "#f7768e",
+        "#9ece6a",
+        "#e0af68",
+        "#7aa2f7",
+        "#bb9af7",
+        "#7dcfff",
+        "#c0caf5",
+        [255] = 0,
+        /* Extra */
 	"#cccccc",
 	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
-//	"",
-//	"red3",
-//	"green3",
-//	"yellow3",
-//	"blue2",
-//	"magenta3",
-//	"cyan3",
-//	"gray90",
-//
-//	"gray50",
-//	"red",
-//	"green",
-//	"yellow",
-//	"#5c5cff",
-//	"magenta",
-//	"cyan",
-//	"white",
-//
-//
+	"#c0caf5", /* default foreground colour */
+	"#1a1b26", /* default background colour */
 };
 
 
@@ -237,6 +216,8 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_c,           clipcopy,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      clippaste,      {.i =  0} },
 	{ MODKEY,               XK_v,           clippaste,      {.i =  0} },
+	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
+	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
 };
 
 /*
