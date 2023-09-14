@@ -137,6 +137,8 @@ typedef struct {
 	Rune lastc;   /* last printed char outside of sequence, 0 if control */
 } Term;
 
+
+
 /* CSI Escape sequence structs */
 /* ESC '[' [[ [<priv>] <arg> [;]] <mode> [<mode>]] */
 typedef struct {
