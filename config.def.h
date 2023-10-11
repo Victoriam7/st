@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DejaVuSansMono Nerd Font:pixelsize=15:antialias=true:autohint=true";
+static char *font = "Anonymice Nerd Font Mono:pixelsize=15:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
